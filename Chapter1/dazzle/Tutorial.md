@@ -109,7 +109,7 @@ triggering a new render to display the HTML.
 
 
 We use `handle_info` that will be called each time the Elixir process sends a message
-using the Earlang `:timer`
+using the Erlang `:timer`
 
 - We update the count and rotate the text in both directions.
 - We scroll text in both directions.
