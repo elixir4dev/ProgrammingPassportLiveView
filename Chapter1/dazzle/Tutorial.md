@@ -2,6 +2,12 @@
 
 Create a Phoenix project without a database
 
+## Goals
+ - Set the state of a live view with `mount/3`
+ - Render the state with `render/1`
+ - Change the state with `handle_info/2`
+ - Use function components.
+
 ```bash
 
 mix phx.new dazzle --no-ecto
