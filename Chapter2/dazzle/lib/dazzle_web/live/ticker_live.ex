@@ -28,8 +28,9 @@ defmodule DazzleWeb.TickerLive do
            as={:form}
         >
           <.input field={@changeset[:message]} type="text" label="Message" />
-          <.input field={@changeset[:scroll]}    type="text" label="Scroll" />
-          <.input field={@changeset[:count]}    type="number" label="Count" />
+          <.input field={@changeset[:scroll]}  type="text" label="Scroll" />
+          <.input field={@changeset[:count]}   type="number" label="Count" />
+          <.input field={@changeset[:count]}   type="range" min="0" max="360" label="Count-Slider"/>
           <.button type="submit" phx-disable-with="Saving...">Update Dazzle </.button>
         </.simple_form>
 
